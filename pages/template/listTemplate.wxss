@@ -1,0 +1,44 @@
+.tmp-container {
+    display: flex;
+    flex-direction: column;
+    border-top: 1rpx solid #ccc;
+    border-bottom: 1rpx solid #ccc;
+}
+.tmp-message {
+    padding: 12rpx;
+}
+.tmp-message image {
+    width: 60rpx;
+    height: 60rpx;
+    vertical-align: middle;
+    margin-right: 10rpx;
+}
+.tmp-message text {
+    font-size: 32rpx;
+}
+.tmp-company {
+    margin: 10rpx;
+    font-size: 36rpx;
+    font-weight: 700;
+}
+.tmp-image {
+    width: 100%;
+    height: 460rpx;
+}
+.tmp-details {
+    font-size: 32rpx;
+    text-indent: 64rpx;
+}
+.tmp-collection {
+    margin-bottom: 10rpx;
+}
+.tmp-collection image {
+    width: 32rpx;
+    height: 32rpx;
+    vertical-align: middle;
+    margin-right: 10rpx;
+}
+.tmp-collection text {
+    font-size: 24rpx;
+    margin-right: 10rpx;
+}

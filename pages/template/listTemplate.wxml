@@ -1,0 +1,17 @@
+<template name="detailTemplate">
+	<view class='tmp-container'>
+		<view class='tmp-message'>
+			<image  src="{{avatar}}"></image>
+			<text>{{date}}</text>
+		</view>
+		<text class='tmp-company'>{{title}}</text>
+		<image  class='tmp-image' src="{{detail_img}}"></image>
+		<text class='tmp-details'>{{detail_content}}</text>
+		<view class='tmp-collection'>
+			<image src="{{detail_love_image1}}"></image>
+			<text>{{love_count}}</text>
+			<image src="{{detail_love_image2}}"></image>
+			<text>{{attention_count}}</text>
+		</view>
+	</view>
+</template>

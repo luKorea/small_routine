@@ -1,0 +1,11 @@
+<!--电影详情页-->
+<view class='mdetail-container'>
+  <image src='{{list.images.large}}'></image>
+  <text class='mdetail-name'>{{list.original_title}}</text>
+  <view class='mdetail-content'>
+  <text>评分: {{list.rating.average}}</text>
+  <text>导演: {{list.directors[0].name}}</text>
+  <text>主演: {{list.casts[0].name}} {{list.casts[1].name}} {{list.casts[2].name}}</text>
+  </view>
+  <button>点击观看</button>
+</view>

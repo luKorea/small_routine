@@ -1,0 +1,9 @@
+<!--  首页  -->
+<view class='index-container'>
+  <image class='index-image' src='{{userInfo.avatarUrl}}'></image>
+  <text class='index-username'>{{userInfo.nickName}}</text>
+  <button class='index-getinfo'  bindgetuserinfo='getUserType'  open-type='getUserInfo' style='display: {{ isShow  ?  "block" : "none" }}'>
+    获取用户信息
+  </button>
+  <button class='index-getmain' catchtap='openDetails'>开启小程序之旅</button>
+</view>
